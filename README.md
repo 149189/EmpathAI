@@ -14,16 +14,17 @@ EmpathAI is a lightweight, accessible AI chatbot designed to provide basic emoti
 ---
 
 ## Tech Stack
-- **AI Model**: DistilBERT or DialoGPT-small (via Hugging Face Transformers).
-- **Backend**: Flask (Python) or Express.js (Node.js).
-- **Database**: SQLite or Firebase (free tier).
+- **AI Model**: DistilBERT  (via Hugging Face Transformers).
+- **Backend**:  Flask (Python) 
+- **Database**: Firebase (free tier).
 - **Frontend**: HTML, CSS, JavaScript.
-- **Hosting**: Heroku, Vercel, or GitHub Pages (free tier).
+- **Hosting**:  Heroku, Vercel, or GitHub Pages (free tier).
 
 ---
 
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/EmpathAI.git
+   git clone https://github.com/149189/EmpathAI.git
    cd EmpathAI
+pip install -r requirements.txt  # For Flask backend
